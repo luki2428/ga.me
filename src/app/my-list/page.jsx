@@ -16,7 +16,8 @@ export default function ListPage(){
 
     useEffect(() => {
         // console.log(elements)
-        localStorage.setItem('todo-list', JSON.stringify(elements))
+        if(elements.length > 0)
+            localStorage.setItem('todo-list', JSON.stringify(elements))
     }, [elements])
 
     const markAsReady = (index) => {
