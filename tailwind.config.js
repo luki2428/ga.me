@@ -12,6 +12,7 @@ module.exports = {
           foreground: "var(--foreground)",
         },
         fontFamily: {
+          'josefin-sans': ['Josefin Sans', 'sans-serif'],
           'open-sans': ['Open Sans', 'sans-serif'],
           'poppins': ['Poppins', 'sans-serif'],
         }

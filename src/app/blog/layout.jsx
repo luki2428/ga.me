@@ -6,7 +6,7 @@ export default function BlogLayout({ children }){
         <section className="min-h-screen pt-48 px-8">
             {children}
         </section>
-        <Footer />
+        {/* <Footer /> */}
         </>
     )
 }
