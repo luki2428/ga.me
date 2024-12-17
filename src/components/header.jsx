@@ -13,9 +13,6 @@ export default function Header(){
                 <NavLink name={'Home'} path={'/'} />
                 <NavLink name={'Blog'} path={'/blog'} />
                 <NavLink name={'Lista gier'} path={'#'} />
-                {/* <Link href={'/'} className="hover:text-white transition-all">Home</Link>
-                <Link href={'/blog'} className="hover:text-white transition-all">Blog</Link>
-                <Link href={'/game-list'} className="hover:text-white transition-all">Lista gier</Link> */}
                 {logged && <NavLink name={'Twoja lista'} path={'/my-list'} />}
             </nav>
 
