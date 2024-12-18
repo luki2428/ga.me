@@ -7,24 +7,22 @@ import Section4 from "@/components/sections/section4";
 import Section5 from "@/components/sections/section5";
 import Section6 from "@/components/sections/section6";
 
-export default function HomePage(){
-  return(
+export default function HomePage() {
+  return (
     <>
+      <Hero />
 
-    <Hero />
+      <Section2 />
 
-    <Section2 />
-    
-    <Section3 />
+      <Section3 />
 
-    <Section4 />
+      <Section4 />
 
-    <Section5 />
+      <Section5 />
 
-    <Section6 />
+      <Section6 />
 
-    <Footer />
-
+      <Footer />
     </>
-  )
+  );
 }
