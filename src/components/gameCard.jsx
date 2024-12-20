@@ -1,5 +1,4 @@
 import Image from "next/image";
-import temp from "@/assets/temp.jpg"
 
 export default function GameCard({ players, status, img }){
     return(

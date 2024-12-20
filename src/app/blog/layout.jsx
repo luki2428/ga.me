@@ -3,7 +3,7 @@ import Footer from "@/components/footer";
 export default function BlogLayout({ children }){
     return(
         <>
-        <section className="min-h-screen pt-48 px-8">
+        <section className="min-h-screen pt-48 px-8 relative">
             {children}
         </section>
         {/* <Footer /> */}
